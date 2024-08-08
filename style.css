@@ -1,0 +1,146 @@
+.item:not(.dash):hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Example background color change */
+    cursor: pointer;
+}
+
+.structure{
+    display: flex;
+    height: 100vh;
+    width:100vw;
+}
+.dashboard{
+    width: 20vw;
+    height: 100%;
+    display:grid;
+    grid-template-rows: 2fr repeat(5,1fr) 2fr repeat(2,1fr) 2fr;
+    background-color: rgb(40, 140, 255);
+    padding-left: 1vw;
+}
+.privacy{
+    grid-row:span 3;
+}
+.item.privacy{
+    display: flex;
+    align-items: flex-start;
+}
+.item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+}
+.item span{
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto; /* Maintain aspect ratio */
+    width: auto; /* Maintain aspect ratio */
+    font-size: large;
+}
+.item img {
+    height: auto; /* Maintain natural height */
+    width: auto;  /* Maintain natural width */
+    max-height: 5vh; /* Set maximum height to ensure the image doesn't get too large */
+    margin-right: 1vw; /* Add space between the image and the text */
+}
+
+.dash span{
+    font-size:x-large;
+    font-weight: bolder;
+}
+.dash.item img {
+    max-height: 10vh; /* Adjust this value as needed */
+    max-width: 10vw; /* Adjust this value as needed */
+    height: auto;
+    width: auto;
+}
+.dash{
+    margin-bottom: 10%;
+}
+.communities{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10%;
+}
+.home-to-tasks .item,.settings-to-support .item{
+    margin-bottom: 5%;
+}
+.settings-to-support{
+    margin-bottom: 5%;
+}
+.body{
+    height:100%;
+    width: 80vw;
+    display: grid;
+    grid-template-rows: 25% 75%;
+    grid-template-columns: 100%;
+}
+.upper{
+    background-color: white;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 100%;
+}
+.upper-upper{
+    display: grid;
+    grid-template-columns: 10% 40% 20% 10% 20%;
+    grid-template-rows: 100%;
+}
+.lower{
+    background-color: red;
+}
+.search-logo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.search-logo img{
+    width: 30%;
+    height: auto;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+}
+.search-bar input{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(239, 239, 239);
+    border-color:white;
+}
+.bell{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.bell img{
+    height:30%;
+    width: auto;
+}
+.small-dp{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.small-dp img{
+    height:50%;
+    width: auto;
+}
+.small-name{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bolder;
+    font-size: large;
+}
