@@ -287,4 +287,80 @@ button:active {
     gap:5%;
     margin-top: 5%;
 }
+.right-lower{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 85% 5%;
+}
+.right-lower-upper{
+    background-color: rgb(230, 236, 241);
+    display: flex;
+    align-items: center;
+    padding-top: 2.5%;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
 
+.right-lower-mid{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+    background-color: ;
+}
+.right-lower-lower{
+    background-color: rgb(230, 236, 241);
+}
+.right-lower-mid-content-upper{
+    border: 10px solid black;
+    border-radius: 10%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+    border-radius: 10px;
+}
+.right-lower-mid-content-upper div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-lower-mid-content-lower{
+    display: grid;
+    grid-template-rows: 10% 90%;
+    grid-template-columns:100%;
+    border-radius: 10px;
+}
+.Trending{
+    background-color:  rgb(230, 236, 241);
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+}
+.Trending-tags{
+    border: 10px solid  rgb(230, 236, 241);
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+.dev{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 100%;
+    background-color: white;
+}
+
+.dev img{
+    align-content: center;
+}
+.dog-content{
+    align-content: center;
+}
+.communities-site-maintenance{
+    border-radius: 10px;
+}
+.communities-share-day{
+    border-radius: 10px;
+}
+.updated-share-policy{
+    border-radius: 10px;
+}
