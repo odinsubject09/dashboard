@@ -1,2 +1,2 @@
 # dashboard
-live link:http://127.0.0.1:5500/index.html
+live link:[http://127.0.0.1:5500/index.html](https://odinsubject09.github.io/dashboard/)
